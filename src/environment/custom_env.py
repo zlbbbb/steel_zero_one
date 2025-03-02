@@ -7,10 +7,14 @@ class CustomEnv(gym.Env):
     自定义环境示例
     以此为基础进行不断拓展
     """
-    
+
+
+    """
+    假定状态空间为
+    """
     def __init__(self):
         super(CustomEnv, self).__init__()
-        
+
         # 定义动作空间
         self.action_space = spaces.Discrete(4)  # 4个离散动作
 
@@ -51,3 +55,4 @@ class CustomEnv(gym.Env):
     def render(self, mode='human'):
         """渲染环境"""
         pass
+
