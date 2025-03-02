@@ -1,0 +1,44 @@
+特征与其他特征的主要皮尔逊相关性分析:
+============================================================
+
+特征: Usage_kWh
+  - 与 CO2(tCO2) 的相关系数: 0.9882
+  - 与 Lagging_Current_Reactive.Power_kVarh 的相关系数: 0.8961
+  - 与 Lagging_Current_Power_Factor 的相关系数: 0.3860
+----------------------------------------
+
+特征: Lagging_Current_Reactive.Power_kVarh
+  - 与 Usage_kWh 的相关系数: 0.8961
+  - 与 CO2(tCO2) 的相关系数: 0.8869
+  - 与 Leading_Current_Power_Factor 的相关系数: 0.4077
+----------------------------------------
+
+特征: Leading_Current_Reactive_Power_kVarh
+  - 与 Lagging_Current_Power_Factor 的相关系数: 0.5268
+  - 与 NSM 的相关系数: 0.3716
+  - 与 Usage_kWh 的相关系数: -0.3249
+----------------------------------------
+
+特征: CO2(tCO2)
+  - 与 Usage_kWh 的相关系数: 0.9882
+  - 与 Lagging_Current_Reactive.Power_kVarh 的相关系数: 0.8869
+  - 与 Lagging_Current_Power_Factor 的相关系数: 0.3796
+----------------------------------------
+
+特征: Lagging_Current_Power_Factor
+  - 与 NSM 的相关系数: 0.5653
+  - 与 Leading_Current_Reactive_Power_kVarh 的相关系数: 0.5268
+  - 与 Usage_kWh 的相关系数: 0.3860
+----------------------------------------
+
+特征: Leading_Current_Power_Factor
+  - 与 Lagging_Current_Reactive.Power_kVarh 的相关系数: 0.4077
+  - 与 CO2(tCO2) 的相关系数: 0.3600
+  - 与 Usage_kWh 的相关系数: 0.3536
+----------------------------------------
+
+特征: NSM
+  - 与 Lagging_Current_Power_Factor 的相关系数: 0.5653
+  - 与 Leading_Current_Reactive_Power_kVarh 的相关系数: 0.3716
+  - 与 Usage_kWh 的相关系数: 0.2346
+----------------------------------------

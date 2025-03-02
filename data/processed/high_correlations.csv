@@ -1,0 +1,9 @@
+Feature_1,Feature_2,Correlation
+Usage_kWh,Lagging_Current_Reactive.Power_kVarh,0.8961499010002166
+Usage_kWh,CO2(tCO2),0.9881797716789515
+Lagging_Current_Reactive.Power_kVarh,Usage_kWh,0.8961499010002166
+Lagging_Current_Reactive.Power_kVarh,CO2(tCO2),0.8869477080514382
+Leading_Current_Reactive_Power_kVarh,Leading_Current_Power_Factor,-0.9440389991536534
+CO2(tCO2),Usage_kWh,0.9881797716789515
+CO2(tCO2),Lagging_Current_Reactive.Power_kVarh,0.8869477080514382
+Leading_Current_Power_Factor,Leading_Current_Reactive_Power_kVarh,-0.9440389991536534
